@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - master
+      - main
   # TODO: just for test
   pull_request:
 jobs:
