@@ -24,6 +24,7 @@ jobs:
           REGISTRY_PASSWORD: ${{secrets.SWR_REGISTRY_PASSWORD}}
           REGISTRY_SERVER_ADDRESS: ${{secrets.SWR_REGISTRY_SERVER_ADDRESS}}
           INVALID_ENV: ${{secrets.NOT_EXIST}}
+          NEW_ENV: "MY TESTING"
           VERSION: latest
 
-        run: echo "$REGISTRY_PASSWORD"
+        run: echo "$NEW_ENV"
