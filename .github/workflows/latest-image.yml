@@ -27,4 +27,4 @@ jobs:
           NEW_ENV: "MY TESTING"
           VERSION: latest
 
-        run: echo "$NEW_ENV"
+        run: make upload-images
